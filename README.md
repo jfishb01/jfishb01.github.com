@@ -1,0 +1,1 @@
+This repo contains the html and css files for my resume and bio
