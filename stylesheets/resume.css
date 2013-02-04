@@ -10,7 +10,8 @@ p, ul {
 }
 
 p, h4 { 
-	margin-left: 1%
+	margin-left: 1%;
+	margin-right: 30%;
 }
 
 #name{ 
