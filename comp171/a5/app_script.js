@@ -28,6 +28,11 @@ function openSaved(file)
 function saveList()
 {
   alert("List Saved");
+}
+
+function savePreferences()
+{
+  alert("Preferences Saved");
   history.go(-1);
   return true;
 }
