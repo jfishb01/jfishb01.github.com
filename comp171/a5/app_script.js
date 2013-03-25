@@ -28,4 +28,6 @@ function openSaved(file)
 function saveList()
 {
   alert("List Saved");
+  history.go(-1);
+  return true;
 }
