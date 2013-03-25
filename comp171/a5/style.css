@@ -3,46 +3,62 @@
 }
 
 .button {
-  width: 200px;
-  height: 50px;
+  width: 350px;
+  height: 80px;
 }
 
 #help {
   position: absolute;
-  left: 140px;
-  top: 230px;
+  left: 240px;
 }
 
 #back {
   position: absolute;
   left: 0px;
-  top: 230px;
 }
 
 #save {
   position: absolute;
-  left: 70px;
-  top: 230px;
+  left: 120px;
 }
 
 .globalButton {
-  width: 66px;
-  height: 40px;
+  width: 120px;
+  height: 60px;
+  top: 330px;
 }
 
 #groceries {
-  height: 200px;
-  width: 275px;
-  max-height: 200px;
-  max-width: 275px;
+  height: 275px;
+  width: 350px;
+  max-height: 275px;
+  max-width: 350px;
   background-color: #FFFFFF;
-  text-align: center;
+  text-align: left;
   border-color: #555555;
   border-style: solid;
   border-radius: 15px;
   border-width: 1px;
 }
 
+#instructions {
+  height: 300px;
+  width: 350px;
+  max-height: 300px;
+  max-width: 350px;
+  background-color: #FFFFFF;
+  text-align: left;
+  border-color: #555555;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+#savedSelection {
+  position: absolute;
+  top: 80px;
+}
+
 .listbox {
-  width: 275px;
+  width: 350px;
 }
