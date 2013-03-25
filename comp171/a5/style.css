@@ -1,0 +1,48 @@
+.tab {
+  margin-left: 10px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+}
+
+#help {
+  position: absolute;
+  left: 140px;
+  top: 230px;
+}
+
+#back {
+  position: absolute;
+  left: 0px;
+  top: 230px;
+}
+
+#save {
+  position: absolute;
+  left: 70px;
+  top: 230px;
+}
+
+.globalButton {
+  width: 66px;
+  height: 40px;
+}
+
+#groceries {
+  height: 200px;
+  width: 275px;
+  max-height: 200px;
+  max-width: 275px;
+  background-color: #FFFFFF;
+  text-align: center;
+  border-color: #555555;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+.listbox {
+  width: 275px;
+}
