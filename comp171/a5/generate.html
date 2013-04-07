@@ -10,13 +10,12 @@
 			media="only screen and (max-device-width:640px)"/>
     <script src="app_script.js"></script>
 	</head>
-	<body>
+	<body onload="generate()">
     <div>
-  <textarea readonly="true" id="groceries">
-   --- Groceries ---</textarea>
+  <textArea readonly="true" id="groceries"></textArea>
   </div>
     <div>
-      <select class="listbox" onchange="openWindow('cooking_instructions.html')">
+      <select id="recipes" class="listbox" onchange="instructions('cooking_instructions.html')">
         <option> --- Recipes ---</option>
         <option>Beef Stew</option>
         <option>Vegetarian Chili</option>

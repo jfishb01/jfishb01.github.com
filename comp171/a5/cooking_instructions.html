@@ -10,23 +10,9 @@
 			media="only screen and (max-device-width:640px)"/>
     <script src="app_script.js"></script>
 	</head>
-	<body>
+	<body onload="instructions()";>
   <div>
-      <textarea readonly="true" id="instructions">
-   --- Directions --- 
-  1. Preheat oven to 350 degrees
-  2. Sautee chicken on stove with
-    vegetable oil
-  3. Sautee mushrooms and zuchini on
-    stove with vegetable oil
-  4. Sautee black beans on stove
-  5. Mix chicken, mushrooms, zuchini,
-    salsa, and black beans in a bowl
-  6. Wrap mixed ingredients in
-  7. Sprinkle cheese on top of the
-    tortillas
-  8. Cook in oven for 25 minutes
-  9. Let sit for 5 minutes to cool</textarea>
+      <textarea readonly="true" id="instructions"></textarea>
     <button id="back" class="globalButton" type="button" onClick="history.go(-1);return true;">Back</button>
     <button id="help" class="globalButton" type="button" onclick="openWindow('help.html')">Help</button>
     </div>
