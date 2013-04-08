@@ -14,6 +14,17 @@
     <script src="app_script.js"></script>
 	</head>
 	<body>
+    <div data-role="header">
+    <a href="" data-rel="back" data-icon="arrow-l">Back</a>
+    <h1> Dine on a Dime </h1>
+	<a href="javascript:openWindow('help.html')" data-icon="info">Help</a>
+    </div>
+    </br>
+    </br>   
+    </br>
+    </br>
+    </br>   
+    </br>   
     <div>
       <select id="savedSelection" class="listbox" onchange="openSaved('generate.html')">
         <option> --- Saved Lists --- </option>
@@ -24,9 +35,6 @@
       </select>
     </div>
     <div>
-    </br>
-    <button id="back" class="globalButton" type="button" onClick="history.go(-1);return true;">Back</button>
-    <button id="help" class="globalButton" type="button" onclick="openWindow('help.html')">Help</button>
     </div>
 	</body>
 </html>

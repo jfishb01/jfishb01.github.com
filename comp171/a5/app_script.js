@@ -47,6 +47,7 @@ Instructions["poop"] = "hey";
 
 window_stack = new Array();
 window_stack.push("index.html");
+Instruction_Page = '<div><textarea readonly="true" id="instructions"></textarea>    <button id="back" class="globalButton" type="button" onClick="history.go(-1);return true;">Back</button> <button id="help" class="globalButton" type="button" onclick="openWindow("help.html")">Help</button> </div>'
 
 function openWindow(file)
 {
@@ -70,8 +71,11 @@ function instructions(file)
   var index = document.getElementById("recipes").selectedIndex;
   var recipes = document.getElementById("recipes").options;
   str = recipes[index].text;
+  //openWindow(file);
+  $("body").html(Instruction_Page);
+  $("body").trigger("create");
   setTextArea(str, file);
-    openWindow(file);
+
 }
 
 function setTextArea(str, file)

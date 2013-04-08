@@ -14,6 +14,11 @@
     <script src="app_script.js"></script>
 	</head>
 	<body>
+    <div data-role="header">
+    <a href="" data-rel="back" data-icon="arrow-l">Back</a>
+    <h1> Dine on a Dime </h1>
+	<a href="javascript:openWindow('help.html')" data-icon="info">Help</a>
+    </div>
     <div>
       <select class="listbox">
         <option> --- Weekly Cost Restrictions --- </option>
@@ -25,7 +30,6 @@
         <option>Over $150</option>
       </select>
     </div>
-    </br>
     </br>
     <div>
       <select class="listbox">
@@ -39,7 +43,6 @@
         <option>Over 2 hours</option>
       </select>
     </div>
-    </br>
     </br>
     <div>
       <select multiple class="listbox">
@@ -66,7 +69,6 @@
         <option>Vegetarian</option>
       </select>
     </div>
-    </br>
     </br>
     <div>
       <select multiple class="listbox">
@@ -99,9 +101,7 @@
     </div>
     <div>
     </br>
-    <button id="back" class="globalButton" type="button" onClick="history.go(-1);return true;">Back</button>
     <button id="save" class="globalButton" type="button" onClick="savePreferences()">Save</button>
-    <button id="help" class="globalButton" type="button" onClick="openWindow('help.html')">Help</button>
     </div>
 	</body>
 </html>
