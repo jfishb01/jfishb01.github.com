@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dine on a Dime</title>
+		<meta name="viewport" content="width=device-width, 
+			initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<link media="print, screen and (min-device-width: 640px)" 
+			href="style.css" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" 
+			media="only screen and (max-device-width:640px)"/>
+    <script src="app_script.js"></script>
+	</head>
+	<body onload="generate()">
+    <div>
+  <textArea readonly="true" id="groceries"></textArea>
+  </div>
+    <div>
+      <select id="recipes" class="listbox" onchange="instructions('cooking_instructions.html')">
+        <option> --- Recipes ---</option>
+        <option>Beef Stew</option>
+        <option>Vegetarian Chili</option>
+        <option>Chicken Picatta</option>
+        <option>Eggplant Parmigiana</option>
+        <option>Ratatouille</option>
+        <option>Corn Chowder</option>
+        <option>Chicken Burritos</option>
+      </select>
+    </div>
+    <div>
+    </br>
+    <button id="back" class="globalButton" type="button" onClick="history.go(-1);return true;">Back</button>
+    <button id="save" class="globalButton" type="button" onClick="window.prompt('Please enter a title for this list','');">Save</button>
+    <button id="help" class="globalButton" type="button" onclick="openWindow('help.html')">Help</button>
+    </div>
+	</body>
+</html>

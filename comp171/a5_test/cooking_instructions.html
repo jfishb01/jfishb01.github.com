@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dine on a Dime</title>
+		<meta name="viewport" content="width=device-width, 
+			initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<link media="print, screen and (min-device-width: 640px)" 
+			href="style.css" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" 
+			media="only screen and (max-device-width:640px)"/>
+    <script src="app_script.js"></script>
+	</head>
+	<body onload="instructions()";>
+  <div>
+      <textarea readonly="true" id="instructions"></textarea>
+    <button id="back" class="globalButton" type="button" onClick="history.go(-1);return true;">Back</button>
+    <button id="help" class="globalButton" type="button" onclick="openWindow('help.html')">Help</button>
+    </div>
+	</body>
+</html>

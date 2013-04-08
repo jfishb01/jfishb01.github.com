@@ -1,0 +1,78 @@
+
+.tab {
+  margin-left: 10px;
+}
+
+.button {
+  width: 310px;
+  height: 70px;
+}
+
+#help {
+  position: absolute;
+  left: 210px;
+}
+
+#back {
+  position: absolute;
+  left: 0px;
+}
+
+#save {
+  position: absolute;
+  left: 105px;
+}
+
+.globalButton {
+  width: 105px;
+  height: 50px;
+  top: 300px;
+}
+
+#groceries {
+  height: 250px;
+  width: 300px;
+  max-height: 250px;
+  max-width: 300px;
+  background-color: #FFFFFF;
+  text-align: left;
+  border-color: #555555;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+#instructions {
+  height: 275px;
+  width: 300px;
+  max-height: 275px;
+  max-width: 300px;
+  background-color: #FFFFFF;
+  text-align: left;
+  border-color: #555555;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+#helpText {
+  height: 275px;
+  width: 300px;
+  max-height: 275px;
+  max-width: 300px;
+  background-color: #FFFFFF;
+  text-align: left;
+  border-color: #555555;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 1px;
+}
+
+#savedSelection {
+  position: absolute;
+  top: 80px;
+}
+
+.listbox {
+  width: 300px;
+}
