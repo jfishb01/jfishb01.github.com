@@ -15,10 +15,11 @@
 	</head>
 	<body onload="generate()">
     <div data-role="header">
-    <a href="" data-rel="back" data-icon="arrow-l">Back</a>
+    <a id="back_link" href="" data-rel="back" data-icon="arrow-l">Back</a>
     <h1> Dine on a Dime </h1>
 	<a href="javascript:openWindow('help.html')" data-icon="info">Help</a>
     </div>
+    <div id="body_content">
     <div>
   <textArea readonly="true" id="groceries"></textArea>
   </div>
@@ -35,7 +36,8 @@
       </select>
     </div>
     <div>
-    <button id="save" class="button" type="button" onClick="window.prompt('Please enter a title for this list','');">Save</button>
+    <button id="save" class="button" type="button" onClick="window.prompt('Please enter a title for this list','');saveList();">Save</button>
+    </div>
     </div>
 	</body>
 </html>
