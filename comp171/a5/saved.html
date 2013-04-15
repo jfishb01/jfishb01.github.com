@@ -14,27 +14,26 @@
     <script src="app_script.js"></script>
 	</head>
 	<body>
-    <div data-role="header">
+	   <div data-role="header">
     <a href="" data-rel="back" data-icon="arrow-l">Back</a>
     <h1> Dine on a Dime </h1>
 	<a href="javascript:openWindow('help.html')" data-icon="info">Help</a>
     </div>
     </br>
-    </br>   
     </br>
     </br>
-    </br>   
-    </br>   
-    <div>
-      <select id="savedSelection" class="listbox" onchange="openSaved('generate.html')">
+    </br>
+    </br>
+    </br>
+    <div data-role="fieldcontain" class="ui-field-contain ui-body ui-br">
+		<div class="ui-select">
+		<select name="select-choice-1" id="select-choice-1" data-native-menu="false" tabindex="-1" onchange="openSaved('generate.html')">
         <option> --- Saved Lists --- </option>
-        <option>3/17 - Good Indian Recipe</option>
-        <option>3/10 - Italian Dishes</option>
-        <option>3/3 - Cheap Groceries</option>
-        <option>2/24 - Good Chili Dish</option>
-      </select>
-    </div>
-    <div>
-    </div>
+        <option>3/17 - Whole Foods Run</option>
+        <option>3/10 - Costco Bulk Groceries</option>
+        <option>3/3 - Easter Shopping</option>
+        <option>2/24 - Second Week of Feb.</option>
+		</select></div>
+	</div>
 	</body>
 </html>

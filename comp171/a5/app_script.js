@@ -153,8 +153,9 @@ function back()
   
 function openSaved(file)
 { 
-  var Index = document.getElementById("savedSelection").selectedIndex;
-  window.open(file, '_self', 'width=xxx,height=xxx,scrollbars=yes');
+  var Index = document.getElementById("select-choice-1").selectedIndex;
+  console.log(Index);
+  window.open(file);
 } 
 
 function saveList()
